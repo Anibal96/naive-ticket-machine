@@ -66,7 +66,7 @@ public class TicketMachine
         System.out.println("##################");
         System.out.println("# The BlueJ Line");
         System.out.println("# Ticket");
-        System.out.println("# " + price + " cents.");
+        System.out.println("# " + price + " euros.");
         System.out.println("##################");
         System.out.println();
 
@@ -74,5 +74,9 @@ public class TicketMachine
         total = total + balance;
         // Clear the balance.
         balance = 0;
+    }
+    public void setPrice(int NuevoPrecioBillete)
+    {
+        price = NuevoPrecioBillete;
     }
 }
