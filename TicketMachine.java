@@ -80,11 +80,17 @@ public class TicketMachine
         price = NuevoPrecioBillete;
     }
     
+    /**
+     * Pide insertar el dinerio necesario para el tikcet.
+     */
     public void prompt()
     {
         System.out.println("Please ,insert the correct amount of money");
     }
     
+    /**
+     * Muestra elprecio del Ticket.
+     */
     public void showPrice()
     {
         System.out.println("The price of the ticket is "+price+" cents");
